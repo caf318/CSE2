@@ -39,7 +39,7 @@ public class FourDigits {
 // the output data printed
     
     System.out.println("Second sample: Enter a double and I display the four digits to the right of the decimal point: " + numbersub2);
-    System.out.println("The " + "four" +  " digits " + " are " + four3);
+    System.out.println("The " + "four" +  " digits " + " are " + (((int)(four3/10)%1000)) + (((int)(four3/100)%1000))  + ((int)(four3*10000)%10000)  + ".");
     
     
     }
